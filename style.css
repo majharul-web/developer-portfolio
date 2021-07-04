@@ -16,15 +16,19 @@ h1{
 }
 .left-head{
     width: 50%;
-    padding-left: 8%;
+    padding-left: 7%;
+    
     
 }
 .left-head p{
    color: #7E7E7E;
+
 }
 .right-head{
     width: 50%;
-    padding-left: 8%;
+    padding-left: 7%;
+
+
       
 }
 .right-head img{
@@ -40,3 +44,15 @@ h1{
         font-weight: 700;
         text-transform: uppercase;
  }
+
+ .Dream-section{
+    display: flex;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 7%;
+}
+.dream-p{
+    padding-right: 12%;
+
+}
