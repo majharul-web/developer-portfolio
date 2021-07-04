@@ -1,58 +1,93 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    }
-h1{
-    font-size: 50px;
+/* all body */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.orange-color{
-    color: orange;
+h1 {
+  font-size: 50px;
 }
-.header-section{
-    display: flex;
-    background-image: url(img/top-banner.png);
-    background-repeat: no-repeat;
+h2 {
+  font-size: 30px;
 }
-.left-head{
-    width: 50%;
-    padding-left: 7%;
-    
-    
+.orange-color {
+  color: orange;
 }
-.left-head p{
-   color: #7E7E7E;
 
+/* header section */
+.header-section {
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
 }
-.right-head{
-    width: 50%;
-    padding-left: 7%;
-
-
-      
+.flex-box {
+  display: flex;
+  margin-bottom: 07%;
 }
-.right-head img{
-    width: 85%;
+.half-width {
+  width: 50%;
+  padding-left: 7%;
+}
+p {
+  color: #7e7e7e;
+}
+
+.half-width img {
+  width: 85%;
 }
 
 .button {
-        text-decoration: none;
-        background-image: linear-gradient(orange,tomato);
-        padding: 11px 40px;
-        border-radius: 6px;
-        color: white;
-        font-weight: 700;
-        text-transform: uppercase;
- }
-
- .Dream-section{
-    display: flex;
-    background-image: url(img/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-top: 7%;
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 11px 40px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.dream-p{
-    padding-right: 12%;
 
+/* dream section */
+.Dream-section {
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 103%;
+}
+.dream-p {
+  padding-right: 12%;
+}
+
+/* experience section */
+.experience-section {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: 200px;
+}
+.exp-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 35px gray;
+  border-radius: 15px;
+  padding-left: 3%;
+  padding-bottom: 5%;
+}
+#exp-item1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+}
+#exp-item2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+/* footer section */
+footer a {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 30px;
+  color: black;
 }
