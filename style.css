@@ -1,17 +1,66 @@
 /* all body */
-body {
-  font-family: "Poppins", sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
   font-size: 50px;
+  padding-bottom: 2%;
 }
 h2 {
   font-size: 30px;
+  padding-top: 5%;
+}
+h3 {
+  padding: 3% 0;
 }
 .orange-color {
   color: orange;
+}
+
+/* navbar */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a img {
+  width: 50%;
+  padding: 10px 0px 10px 104px;
+}
+.menubar {
+}
+.menubar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 20px 75px 0 0;
+}
+
+.menubar ul li {
+  margin: 0 20px;
+}
+.menubar ul li a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  color: #e4232c;
+  font-weight: 700;
+  position: relative;
+}
+.menubar ul li a:hover::after {
+  content: " ";
+  position: absolute;
+  width: 8vh;
+  border-bottom: 5px solid #ffb526;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* header section */
@@ -29,6 +78,7 @@ h2 {
 }
 p {
   color: #7e7e7e;
+  margin: 6% 0 5% 0;
 }
 
 .half-width img {
@@ -50,7 +100,7 @@ p {
   background-image: url(img/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 103%;
+  background-position-y: 77%;
 }
 .dream-p {
   padding-right: 12%;
@@ -60,7 +110,7 @@ p {
 .experience-section {
   background-image: url(img/exp-bg.png);
   background-repeat: no-repeat;
-  background-position-y: 200px;
+  background-position-y: 165px;
 }
 .exp-item {
   width: 40%;
