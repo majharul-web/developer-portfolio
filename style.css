@@ -52,6 +52,7 @@ h3 {
   color: #e4232c;
   font-weight: 700;
   position: relative;
+  transition: ;
 }
 .menubar ul li a:hover::after {
   content: " ";
@@ -85,14 +86,31 @@ p {
   width: 85%;
 }
 
+/* button */
 .button {
+  padding: 7px 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
-  padding: 11px 40px;
-  border-radius: 6px;
-  color: white;
-  font-weight: 700;
   text-transform: uppercase;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  font-weight: 700;
+}
+.button:hover {
+  animation: animate 8s linear 1s infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
 }
 
 /* dream section */
